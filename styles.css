@@ -22,3 +22,11 @@ ul {
     gap: 16px;
     list-style-type: none;
 }
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px;
+    background-color: #1F2937;
+}
