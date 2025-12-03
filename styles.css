@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -17,7 +22,7 @@ a {
     font-size: 18px;
 }
 
-ul {
+nav ul {
     display: flex;
     gap: 16px;
     list-style-type: none;
@@ -43,7 +48,36 @@ ul {
     color: #1F2937;
 }
 
-.features ul li {
+.features ul {
     color: #1F2937;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
 
+.features li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    text-align: center;
+}
+
+.quote {
+    background-color: lightgray;
+    padding: 48px;
+    font-size: 36px;
+    font-weight: bolder;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+}
+
+footer {
+    background-color: #E5E7EB;
+    text-align: center;
+    color: #1F2937;
+    padding: 48px;
 }
