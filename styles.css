@@ -1,14 +1,13 @@
 body {
     display: flex;
     flex-direction: column;
-    margin: 0 250px;
-    font-family: ;
+    margin: 0;
 }
 
 header {
     display: inherit;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 200px;
     background-color: #1F2937;
 }
 
@@ -31,13 +30,15 @@ main {
 .hero {
   display: inherit;
   justify-content: space-between;
+  padding: 0 200px;
   background-color: #1F2937;
+}
+
+.hero figure {
+  margin-right: 0;
 }
 
 a {
   text-decoration: none;
 }
 
-.hero div {
-    padding: 16px;
-}
