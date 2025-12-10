@@ -1,3 +1,9 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  font-family: Roboto;
+  outline: 1px solid red;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -9,6 +15,11 @@ header {
     justify-content: space-between;
     padding: 0 200px;
     background-color: #1F2937;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 nav {
@@ -34,20 +45,42 @@ main {
   background-color: #1F2937;
 }
 
+.hero h2 {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #E5E7EB
+}
+
 .hero figure {
   margin: 0;
 }
 
 a {
   text-decoration: none;
+  color: #E5E7EB
 }
 
 .features {
   display: inherit;
+/*/im guessing justify-content: center; does nothing since it was in a row and */
   flex-direction: column;
+  padding: 0 200px;
+  align-items: center;
 }
 
+
 .features ul {
+  padding: 0;
   list-style-type: none;
   display: inherit;
+  justify-content: space-evenly;
+}
+
+figcaption {
+  width: 150px;
 }
