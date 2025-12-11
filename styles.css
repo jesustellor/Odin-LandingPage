@@ -112,3 +112,15 @@ img {
   align-self: flex-end;
   font-weight: bold;
 }
+
+.call-to-action {
+  display: inherit;
+  justify-content: center;
+  padding: 100px 200px;
+}
+
+.call-to-action div {
+    padding: 50px 100px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
