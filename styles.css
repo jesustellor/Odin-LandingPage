@@ -69,7 +69,7 @@ a {
   display: inherit;
 /*/im guessing justify-content: center; does nothing since it was in a row and */
   flex-direction: column;
-  padding: 0 200px;
+  padding: 50px 200px 100px 200px;
   align-items: center;
 }
 
@@ -82,5 +82,30 @@ a {
 }
 
 figcaption {
-  width: 150px;
+  width: 158px;
+}
+
+img {
+  border-radius: 10px;
+  border: 4px solid #3882F6;
+}
+
+.quote {
+  display: inherit;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #E5E7EB;
+  padding: 100px 200px;
+}
+
+.quote blockquote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  margin: 0;
+}
+
+.quote cite {
+  text-align: right;
+  font-weight: bold;
 }
