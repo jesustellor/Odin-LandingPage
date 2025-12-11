@@ -99,13 +99,16 @@ img {
 }
 
 .quote blockquote {
+  display: inherit;
+  flex-direction: column;
+  justify-content: center;
   font-size: 36px;
   font-style: italic;
   color: #1F2937;
   margin: 0;
 }
 
-.quote cite {
-  text-align: right;
+.quote blockquote cite {
+  align-self: flex-end;
   font-weight: bold;
 }
