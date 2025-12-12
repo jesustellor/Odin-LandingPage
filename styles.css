@@ -113,14 +113,31 @@ img {
   font-weight: bold;
 }
 
-.call-to-action {
-  display: inherit;
-  justify-content: center;
-  padding: 100px 200px;
+footer {
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
 }
 
-.call-to-action div {
-    padding: 50px 100px;
-    background-color: #3882F6;
-    border-radius: 10px;
+.call-to-action {
+  display: inherit;
+  background-color: #3882F6;
+  border-radius: 10px;
+  color: #F9FAF8;
+  margin: 100px 0;
+  align-items: center;
+}
+
+.call-to-action button {
+  border-radius: 10px;
+  background-color: #3882F6;
+  border: 2px solid #F9FAF8;
+  color: #F9FAF8;
+  padding: 10px 30px;
+  margin: 0 80px;
+  height: 50px;
+}
+
+.call-to-action div{
+  margin: 0 80px;
 }
